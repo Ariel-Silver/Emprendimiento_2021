@@ -1,0 +1,144 @@
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid $black;
+    margin: 1em .5em;
+}
+
+.courses__card {
+    margin: .5em;
+  
+    &-img {
+        border-radius: 50%;
+        border: 1px solid $black;
+        width: 170px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    &-title {
+        font-family: $poppins;
+        font-weight: $bold;
+        text-align: center;
+    }
+    &-icons {
+        display:flex;
+        justify-content: center;
+    }
+    &-text {
+        font-family: $poppins;
+        font-weight: $regular;
+        color: $black;
+        margin: .3em;
+        line-height: 2em;
+        font-size: $small;
+    }
+    &-cursos{
+        font-family: $poppins;
+        font-weight: $bold;
+        background-color: $sable;
+        color: $white;
+        text-align: center;
+    }
+    &-list {
+        list-style-type: circle;
+        margin-left: 1.5em;
+        margin-top: 1em;
+        a {
+            text-decoration: none;
+            font-family: $poppins;
+            font-weight: $regular;
+            font-size: $small;
+        }
+        li{
+            padding-top: .3em;
+        }
+    }
+    &-animation {
+        margin-top: 3em;
+        
+    }
+}
+
+@media (min-width: 992px) {
+    .courses{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: 2px solid $black;
+        margin: .5em .5em;
+    }
+    
+    .courses__card {
+        margin: .5em;
+      
+        &-img {
+            border-radius: 50%;
+            border: 1px solid $black;
+            margin-left: 16em;
+            margin-right: auto;
+        }
+    
+        &-title {
+            font-family: $poppins;
+            font-weight: $bold;
+            text-align: center;
+        }
+        &-icons {
+            display:flex;
+            justify-content: center;
+        }
+        &-text {
+            font-family: $poppins;
+            font-weight: $regular;
+            color: $black;
+            margin: .3em;
+            line-height: 2em;
+            font-size: $small;
+        }
+        &-cursos{
+            font-family: $poppins;
+            font-weight: $bold;
+            background-color: $sable;
+            color: $white;
+            text-align: center;
+        }
+        &-list {
+            list-style-type: circle;
+            margin-left: 1.5em;
+            margin-top: 1em;
+            a {
+                text-decoration: none;
+                font-family: $poppins;
+                font-weight: $regular;
+                font-size: $small;
+            }
+            li{
+                padding-top: .3em;
+            }
+        }
+        &-animation {
+            margin-top: 3em;
+            
+        }
+    }
+}
+
+.courses__card-animation {
+    width: 260px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px) {
+    
+.courses__card-animation {
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}

@@ -1,0 +1,8 @@
+.primary-btn {
+    border-radius: 0%;
+    background-color: $orange;
+    color: $black;
+    &:hover {
+        background-color: $white;
+    }
+}

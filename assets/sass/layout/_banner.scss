@@ -1,0 +1,12 @@
+.banner {
+    background-image: url(../../assets/img/desarrolloweb2021t.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+@media (min-width: 992px) {
+    .banner {
+        margin-top: 0.5em;
+    }
+}

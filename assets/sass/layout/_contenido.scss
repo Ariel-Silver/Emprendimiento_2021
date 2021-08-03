@@ -1,0 +1,83 @@
+.content {
+    background: $white;
+    border: 2px solid $black;
+    margin: .5em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content__card {
+    border: 2px dotted $sable;
+    width: 100%;
+    margin: 1.2em .8em;
+    
+    .content__card--img {
+        padding: .3em;
+        display: block;
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   .content__card--title {
+       padding: .6em;
+   }
+   .content__card--text {
+       padding: .8em;
+       text-align: justify;
+   }
+   .content__card--instructor {
+       padding: .6em;
+   }
+   .content__card--icons {
+       display: flex;
+       justify-content: flex-start;
+       padding: .8em;
+   }
+}
+
+.icon {
+    margin-right: .8em;
+}
+
+
+@media (min-width: 992px) {
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .content__card {
+        border: 2px dotted $sable;
+        width: 100%;
+        margin: 1.2em .8em;
+        
+        .content__card--img {
+            padding: .3em;
+            display: block;
+            width: 670px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+       .content__card--title {
+           padding: .6em;
+       }
+       .content__card--text {
+           padding: .8em;
+           text-align: justify;
+       }
+       .content__card--instructor {
+           padding: .6em;
+       }
+       .content__card--icons {
+           display: flex;
+           justify-content: flex-start;
+           padding: .8em;
+       }
+    }
+    
+    .icon {
+        margin-right: .8em;
+    }
+}

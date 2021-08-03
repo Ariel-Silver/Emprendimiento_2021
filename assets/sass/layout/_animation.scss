@@ -1,0 +1,69 @@
+.animation_slash {
+    animation: myanimation 3s ease-in-out infinite;
+}
+
+@keyframes myanimation {
+    
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(152px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.animation__gear {
+    animation: gearAnimation 3s ease-in-out infinite;
+    
+}
+
+@keyframes gearAnimation {
+    0% { 
+        transform: rotate(0deg);
+        transform-origin: center;
+        transform-box: fill-box;} 
+        
+    100% { 
+        transform: rotate(360deg);
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+}
+
+.animation__center {
+    animation: centerAnimation 3s ease-in-out infinite;
+    
+}
+
+@keyframes centerAnimation {
+    0% { 
+        transform: rotate(0deg);
+        transform-origin: center;
+        transform-box: fill-box;} 
+        
+    100% { 
+        transform: rotate(360deg);
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+}
+
+
+

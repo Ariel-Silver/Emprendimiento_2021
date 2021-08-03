@@ -1,0 +1,26 @@
+// Abstracts
+@import 'abstracts/variables';
+
+// Vendors
+@import 'vendors/bootsrap_5.0.2/bootstrap.scss';
+
+// Base
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+// Layout
+@import 'layout/navigation';
+@import 'layout/banner';
+@import 'layout/cursos';
+@import 'layout/contenido';
+@import 'layout/animation';
+@import 'layout/grid';
+@import 'layout/footer';
+
+// Components
+@import 'components/buttons';
+
+// Pages
+
+// Theme
